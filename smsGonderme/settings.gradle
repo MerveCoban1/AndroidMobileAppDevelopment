@@ -1,0 +1,2 @@
+rootProject.name='smsGonderme'
+include ':app'

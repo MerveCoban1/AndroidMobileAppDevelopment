@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CDDC39"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="30dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/isim_giriniz1"
+        android:inputType="textPersonName"
+        android:text="@string/isim_giriniz1" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/soyisim1"
+        android:inputType="textPersonName"
+        android:text="@string/soyisim1" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="match_parent"
+        android:layout_height="164dp"
+        android:layout_margin="10dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="@string/ekstrabilgi1"
+        android:inputType="textMultiLine"
+        android:text="@string/ekstrabilgi1" />
+
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#E31010"
+        android:text="@string/kaydet1"
+        android:textCursorDrawable="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/TextView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/metin1" />
+
+</LinearLayout>
+
+

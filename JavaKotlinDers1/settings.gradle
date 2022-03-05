@@ -1,0 +1,2 @@
+rootProject.name='JavaKotlinDers1'
+include ':app'

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_light"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/kisim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="kullanici ismi giriniz" />
+
+    <EditText
+        android:id="@+id/sifre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="sifrenizi giriniz"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/ol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="uye ol" />
+
+</LinearLayout>

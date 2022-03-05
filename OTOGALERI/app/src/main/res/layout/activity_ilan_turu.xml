@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CDCBA6"
+    android:orientation="vertical"
+    tools:context=".IlanTuru">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:text="Ilan Turu Bilgilerinizi Giriniz"
+        android:textColor="#0F3057"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <Spinner
+        android:layout_width="match_parent"
+        android:id="@+id/ilanTuruSpinner"
+        android:layout_height="wrap_content"></Spinner>
+    <Spinner
+        android:layout_width="match_parent"
+        android:id="@+id/kimdenSpinner"
+        android:layout_height="wrap_content"></Spinner>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ILERI"
+        android:id="@+id/ileri"
+        android:background="@drawable/menu_button_back"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GERI"
+        android:id="@+id/geri"
+        android:background="@drawable/menu_button_back"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"/>
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Merhabalar</string>
+
+
+    <string name="isim_giriniz1">İsim</string>
+    <string name="soyisim1">Soyisim</string>
+    <string name="kaydet1">Kaydet</string>
+    <string name="ekstrabilgi1">ekstrabilgi</string>
+    <string name="metin1">sonuc:0</string>
+    <string name="yazmaya_basla">Yazmaya Basla</string>
+    <string name="yazdir">Yazdır</string>
+</resources>

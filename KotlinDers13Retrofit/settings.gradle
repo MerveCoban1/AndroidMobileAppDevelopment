@@ -1,0 +1,2 @@
+rootProject.name='KotlinDers13Retrofit'
+include ':app'

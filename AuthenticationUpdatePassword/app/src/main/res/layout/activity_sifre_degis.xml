@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SifreDegisActivity">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="yeni sifre gir"
+        android:id="@+id/sifreYeni"/>
+    <Button
+        android:id="@+id/sifreDegistir"
+        android:layout_width="match_parent"
+        android:text="degistir"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

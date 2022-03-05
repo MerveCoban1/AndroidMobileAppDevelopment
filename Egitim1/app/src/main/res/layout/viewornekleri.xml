@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <WebView
+        android:id="@+id/webview"
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hangi programlama dillerini biliyorsunuz" />
+
+    <CheckBox
+        android:id="@+id/java"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="java" />
+
+    <CheckBox
+        android:id="@+id/php"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="php" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/grupradyo">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kiz"
+            android:id="@+id/kiz"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="erkek"
+            android:id="@+id/erkek"/>
+    </RadioGroup>
+
+
+</LinearLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Buttonlar">
+
+    <Button
+        android:id="@+id/metinsiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="metinli buton" />
+
+    <ImageButton
+        android:id="@+id/resimli"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/indir"
+
+        />
+
+    <Button
+        android:id="@+id/karisik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableBottom="@drawable/indir"
+        android:text="hem resim hem metinli buton" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:background="@android:color/holo_blue_light"
+        android:padding="10dp"
+        android:text="merve coban"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="40dp"
+        android:textStyle="italic|bold" />
+
+    <EditText
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/editarkaplan"
+        android:hint="faktöriyelini hesaplamak istediğiniz sayiyi giriniz"
+        android:padding="10dp"
+        android:textColor="@android:color/holo_green_light" />
+
+    <Button
+        android:id="@+id/hesaplabutonu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:text="hesapla" />
+
+    <TextView
+        android:id="@+id/sonuc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/resmim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_launcher_background"/>
+    <Button
+        android:id="@+id/resimbutonu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:text="degistir" />
+
+</LinearLayout>

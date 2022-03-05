@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <ImageView
+        android:id="@+id/resim1"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/indir" />
+
+    <TextView
+        android:id="@+id/yazi1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/resim1"
+        android:text="merhabalar efenim" />
+
+    <TextView
+        android:id="@+id/saat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/yazi1"
+        android:layout_toRightOf="@+id/resim1"
+        android:text="21:17" />
+
+    <TextView
+        android:id="@+id/aciklama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/resim1"
+        android:text="bu benim resimle ilgili açıklamam"
+        android:layout_marginBottom="20dp"/>
+
+    <ImageView
+        android:id="@+id/buyukresim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/indir"
+        android:layout_below="@+id/aciklama"
+        android:layout_marginBottom="20dp"/>
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/buyukresim"
+        android:background="@drawable/indir"
+        android:id="@+id/kuccuk1"
+        android:layout_marginRight="10dp"/>
+    <TextView
+        android:id="@id/yazi5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buyukresim"
+        android:layout_toRightOf="@+id/kuccuk1"
+        android:text="begen"
+        android:layout_marginRight="10dp"/>
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/buyukresim"
+        android:background="@drawable/indir"
+        android:id="@+id/kuccuk2"
+        android:layout_marginRight="10dp"
+        android:layout_toRightOf="@+id/yazi5"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buyukresim"
+        android:layout_toRightOf="@+id/kuccuk2"
+        android:text="paylas"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "666099601879",
+    "firebase_url": "https://thematic-metric-292912.firebaseio.com",
+    "project_id": "thematic-metric-292912",
+    "storage_bucket": "thematic-metric-292912.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:666099601879:android:9577708d2367d884ce3b92",
+        "android_client_info": {
+          "package_name": "com.example.kotlinders10firebasee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "666099601879-02upnpor7vrmjr1mld4d39u20iqd6o72.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYxN78oDPGd8XxHceRYx6XyT-fyj8Tvuw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "666099601879-02upnpor7vrmjr1mld4d39u20iqd6o72.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

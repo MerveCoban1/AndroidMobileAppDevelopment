@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CDCBA6"
+    android:orientation="vertical"
+    tools:context=".IlanResimler">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#CDCBA6">
+            <EditText
+                android:id="@+id/denemeiki"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="merve"/>
+            <EditText
+                android:id="@+id/denemebir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="merve"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="80dp"
+                android:gravity="center"
+                android:text="Ilan Resimlerini Seciniz"
+                android:textColor="#0F3057"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Resim Sec"
+                android:id="@+id/resimSecButonu"
+                android:background="@drawable/menu_button_back"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/secilenResim"
+                android:layout_gravity="center"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Resim Ekle"
+                android:id="@+id/resimEkleButonu"
+                android:background="@drawable/menu_button_back"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CIK"
+                android:id="@+id/cik"
+                android:background="@drawable/menu_button_back"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"/>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

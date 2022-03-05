@@ -1,0 +1,2 @@
+rootProject.name='KotlinDers11Fragment'
+include ':app'

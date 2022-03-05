@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/app_bar_main">
+
+    <fragment
+        android:id="@+id/nav_host_fragment"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:defaultNavHost="true"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:navGraph="@navigation/mobile_navigation" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/sliderLayout"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+        <ViewFlipper
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/v_flipper"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/menuLayout"
+        android:layout_width="match_parent"
+        android:background="#EF9688"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/sliderLayout"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/tumIlanlar"
+                android:layout_margin="10dp"
+                android:layout_width="0dp"
+                android:background="@drawable/menu_button_back"
+                android:layout_height="match_parent"
+                android:text="ILANLAR"
+                android:padding="8dp"
+                android:drawableTop="@drawable/uc"
+                android:textColor="@android:color/white"
+                android:layout_weight="1" />
+
+            <Button
+                android:layout_margin="10dp"
+                android:layout_width="0dp"
+                android:padding="8dp"
+                android:background="@drawable/menu_button_back"
+                android:layout_height="match_parent"
+                android:text="ILAN VER"
+                android:id="@+id/ilanVerButon"
+                android:textColor="@android:color/white"
+                android:drawableTop="@drawable/uc"
+                android:layout_weight="1" />
+            <Button
+                android:id="@+id/favoriButton"
+                android:layout_margin="10dp"
+                android:layout_width="0dp"
+                android:padding="8dp"
+                android:background="@drawable/menu_button_back"
+                android:layout_height="match_parent"
+                android:text="FAVORILER"
+                android:textColor="@android:color/white"
+                android:drawableTop="@drawable/uc"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:layout_margin="10dp"
+                android:layout_width="0dp"
+                android:padding="8dp"
+                android:background="@drawable/menu_button_back"
+                android:textColor="@android:color/white"
+                android:layout_height="match_parent"
+                android:drawableTop="@drawable/uc"
+                android:text="ILETISIM BILGILERI"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/mesajlasmaButonu"
+                android:layout_margin="10dp"
+                android:layout_width="0dp"
+                android:background="@drawable/menu_button_back"
+                android:layout_height="match_parent"
+                android:textColor="@android:color/white"
+                android:drawableTop="@drawable/uc"
+                android:text="MESAJLAR"
+                android:padding="8dp"
+                android:layout_weight="1" />
+            <Button
+                android:id="@+id/ilanlarimButon"
+                android:layout_margin="10dp"
+                android:layout_width="0dp"
+                android:padding="8dp"
+                android:background="@drawable/menu_button_back"
+                android:layout_height="match_parent"
+                android:textColor="@android:color/white"
+                android:drawableTop="@drawable/uc"
+                android:text="ILANLARIM"
+                android:layout_weight="1" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</RelativeLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>
